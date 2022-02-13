@@ -518,8 +518,9 @@ section {
 }
 .services .icon-box:hover {
   transform: translateY(-5px);
-  border-color: #ef7f4d;
+  border-color: #f36f2e;  /* Old:#ef7f4d */
 }
+
 /* .services .icon i {
   font-size: 48px;
   line-height: 1;
@@ -530,19 +531,19 @@ section {
 /* Icon Style */
 #services .icon {
   margin: 0 auto 15px auto;
-  padding-top: 12px;
+  padding-top: 10px;
   display: inline-block;
   text-align: center;
   border-radius: 50%;
   width: 60px;
   height: 60px;
 }
-
 #services .icon i {
-  font-size: 36px;
+  font-size: 40px;
+  margin-bottom: 15px;
   line-height: 1;
+  color: #ef7f4d;
 }
-
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
