@@ -26,6 +26,16 @@
     url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Semibold.otf") format("opentype");
 }
 
+
+/* Graphik Font */
+@font-face {
+    font-family: "Graphik-web";
+    src: url("../vendor/custom-fonts/Graphik/Graphik-Regular-Web.woff2") format("woff2"),
+    url("../vendor/custom-fonts/Graphik/Graphik-Black-Web.woff2") format("woff2"),
+    url("../vendor/custom-fonts/Graphik/Graphik-Bold-Web.woff2") format("woff2"),
+    url("../vendor/custom-fonts/Graphik/Graphik-Semibold-Web.woff2") format("woff2");
+  }
+
 /* ///////////////////////// */
 .Secular-font {
     font-family: 'Secular One' ;
@@ -35,4 +45,7 @@
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
     /* font-family: 'San Francisco';
     font-weight: lighter; */
+}
+.Graphik-font {
+    font-family: 'Graphik-web', Helvetica, sans-serif;
 }
