@@ -472,8 +472,9 @@ section {
 --------------------------------------------------------------*/
 .about h3 {
   font-weight: 700;
-  font-size: 34px;
+  font-size: 30px;
   color: #4e4039;
+  text-align: center;
 }
 .about h4 {
   font-size: 20px;
@@ -488,7 +489,12 @@ section {
 }
 .about p {
   font-size: 15px;
-  color: #5a6570;
+  color: #4E4039;
+  font-family: "Graphik-web", sans-serif;
+}
+.about .about-com {
+  font-size: 16px;
+  text-align: center;
 }
 @media (max-width: 991px) {
   .about .about-img img {
@@ -501,6 +507,27 @@ section {
   }
 }
 
+/* ----------------------------------------------------------
+# About 2
+----------------------------------------------------------- */
+.about2 .about-box {
+  text-align: center;
+}
+.about2 .about-box .title {
+  color: #4E4039;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  font-size: 20px;
+  padding-top: 10px;
+}
+.about2 .about-box .title span {
+  color:#f36f2e;
+  font-size: 24px;
+}
+.about2 .about-box p {
+  font-family: "Graphik-web", sans-serif;
+  padding-top: 5px;
+}
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
@@ -560,7 +587,7 @@ section {
   font-size: 18px;
 }
 .services .title a {
-  color: #111;
+  color: #4E4039;
 }
 .services .description {
   font-size: 15px;
@@ -776,6 +803,9 @@ section {
 .faq .faq-list p {
   margin-bottom: 0;
   padding: 10px 0 0 25px;
+  font-size: 16px; 
+  color: #686868;
+  font-family: 'Graphik-web', Helvetica, sans-serif;
 }
 .faq .faq-list .icon-show {
   display: none;
@@ -1225,7 +1255,7 @@ section {
 #footer .footer-top h4 {
   font-size: 16px;
   font-weight: bold;
-  color: #212529;
+  color: #4E4039;
   position: relative;
   padding-bottom: 12px;
 }
