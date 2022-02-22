@@ -430,13 +430,14 @@ section {
 # Breadcrumbs
 --------------------------------------------------------------*/
 .breadcrumbs {
-  padding: 15px 0;
+  padding: 30px 0;
   background-color: #fef5f1;
   min-height: 40px;
 }
 .breadcrumbs h2 {
   font-size: 24px;
   font-weight: 300;
+  font-family: "Open Sans", sans-serif;
 }
 .breadcrumbs ol {
   display: flex;
@@ -859,21 +860,21 @@ section {
   font-style: italic;
   margin: 0 0 15px 140px;
 }
-.testiminals .clients-slider .swiper-pagination {
+.testiminals .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
 }
-.testiminals .clients-slider .swiper-pagination .swiper-pagination-bullet {
+.testiminals .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
   width: 12px;
   height: 12px;
   background-color: #fff;
   opacity: 1;
   border: 1px solid #f36f2e;
 }
-.testiminals .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
+.testiminals .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f36f2e;
 }
-.testiminals .clients-slider {
+.testiminals .portfolio-details-slider {
   display: block;
   display: block;
   overflow: hidden;
@@ -1346,3 +1347,15 @@ section {
     padding: 3px 0;
   }
 }
+
+/* Orange Dot style */
+.org-dot {
+  color: #f36f2e;
+  font-size: 30px;
+}
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# request-a-quote.html
+--------------------------------------------------------------*/
