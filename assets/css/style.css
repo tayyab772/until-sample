@@ -13,7 +13,7 @@ a {
 }
 
 a:hover {
-  color: #ef7f4d;
+  color: #e0672a;
   text-decoration: none;
 }
 
@@ -43,7 +43,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   line-height: 0;
 }
 .back-to-top:hover {
-  background: #ee7843;
+  background: #e0672a;
   color: #fff;
 }
 .back-to-top.active {
@@ -138,7 +138,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 }
 .navbar .getstarted:hover, .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #ee7843;
+  background: #e0672a;
 }
 .navbar .dropdown ul {
   display: block;
@@ -319,7 +319,7 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   background: #f36f2e;
 }
 #hero .btn-get-started:hover {
-  background: #ef7f4d;
+  background: #e0672a;
 }
 #hero .animated {
   animation: up-down 2s ease-in-out infinite alternate-reverse both;
@@ -991,7 +991,7 @@ section {
   border-top: 3px solid #f36f2e;
   border-bottom: 3px solid #f36f2e;
   border-radius: 15px;
-  padding: 30px;
+  padding: 50px 25px;
   background: #fff;
   width: 100%;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
@@ -1100,6 +1100,10 @@ section {
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
 }
+.contact .php-email-form label span {
+  color: #ab9d95;
+  font-size: 14px;
+}
 .contact .php-email-form input, .contact .php-email-form textarea {
   border-radius: 8px;
   box-shadow: none;
@@ -1109,7 +1113,10 @@ section {
   height: 40px;
 }
 .contact .php-email-form input::after{
-  color: red;
+  color: #f36f2e;
+}
+.contact .php-email-form select {
+  font-size: 14px;
 }
 .contact .php-email-form textarea {
   padding: 10px 12px;
@@ -1351,7 +1358,6 @@ section {
 /* Orange Dot style */
 .org-dot {
   color: #f36f2e;
-  font-size: 30px;
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
