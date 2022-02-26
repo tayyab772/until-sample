@@ -1391,3 +1391,52 @@ section {
 /*--------------------------------------------------------------
 # request-a-quote.html
 --------------------------------------------------------------*/
+.section-title-quote {
+  text-align: center;
+  padding-bottom: 10px;
+}
+.contact .info-address i {
+  font-size: 20px;
+  color: #f36f2e;
+  float: left;
+  width: 44px;
+  height: 44px;
+  background: #fdf1ec;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  transition: all 0.3s ease-in-out;
+}
+.contact .info-address h4 {
+  padding: 0 0 0 60px;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+  color: #7a6960;
+  font-family: "Open Sans", sans-serif;
+}
+.contact .info-address p {
+  padding: 0 0 10px 60px;
+  margin-bottom: 20px;
+  font-size: 14px;
+  color: #ab9d95;
+}
+.contact .info-address a {
+  color: #ab9d95;
+}
+.contact .info-address a:hover {
+  color: #f36f2e;
+}
+.contact .info-address .email:hover i, .contact .info-address .address:hover i, .contact .info-address .phone:hover i {
+  background: #f36f2e;
+  color: #fff;
+}
+.address-row {
+  margin-left: 75px;
+}
+@media (max-width: 768px) {
+  .address-row {
+    margin-left: 20px;
+  }
+}
