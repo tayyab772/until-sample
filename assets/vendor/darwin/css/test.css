@@ -4949,3 +4949,7 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     height: 10px;
     float: left
 }
+
+.footer-dis {
+    display: none;
+}
