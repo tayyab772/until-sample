@@ -4966,3 +4966,25 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     height: 10px;
     float: left
 }
+
+/* Section 2 - bubble animation */
+.section-2 {
+    font-family: Montserrat, sans-serif;
+    font-size: 70px;
+}
+.c0bb7 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+}
+.c0bb7 a {
+    color: #f36f2e;
+}
+
+@media (max-width: 768px) {
+    .section-2 {
+        font-size: 40px;
+    }
+    .c0bb7 {
+        font-size: 18px;
+    }
+}
