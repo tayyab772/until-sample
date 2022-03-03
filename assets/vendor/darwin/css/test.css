@@ -1061,6 +1061,8 @@ select {
 [data-js] ._47f73>span:not([data-line-revealed]):after, [data-js] ._47f73>span:not([data-line-revealed]):before {
     width: 0 !important
 }
+
+/* Cursor Design */
 [data-cursor] {
     position: fixed;
     top: 0;
@@ -1115,6 +1117,8 @@ select {
 [data-cursor][data-cursor-color=white]:before {
     border-color: #fff
 }
+/* End of Cursor Design */
+
 ._39080 {
     color: #f84d54;
     text-decoration: none
@@ -4970,6 +4974,9 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 .c8247 {
     font-family: Montserrat, sans-serif;
     font-size: 20px;
+    color: #000000;
+}
+.c8247:hover {
     color: #000000;
 }
 
