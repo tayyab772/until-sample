@@ -18,7 +18,8 @@ a:hover {
 }
 
 h1, h2, h3, h4, h5, h6, .font-primary {
-  font-family: "Raleway", sans-serif;
+  /* font-family: "Raleway", sans-serif; */
+  font-family: Montserrat, sans-serif;
 }
 
 /*--------------------------------------------------------------
@@ -521,7 +522,7 @@ section {
   color: #4E4039;
   font-family: "Open Sans", sans-serif;
   font-weight: 700;
-  font-size: 20px;
+  font-size: 22px;
   padding-top: 10px;
 }
 .about2 .about-box .title span {
@@ -531,6 +532,11 @@ section {
 .about2 .about-box p {
   font-family: "Graphik-web", sans-serif;
   padding-top: 5px;
+}
+@media (max-width: 768px) {
+  .about2 .about-box p {
+    font-size: 16px;
+  }
 }
 /*--------------------------------------------------------------
 # Services
@@ -597,6 +603,7 @@ section {
   font-size: 15px;
   line-height: 28px;
   margin-bottom: 0;
+  color: #686868;
 }
 
 /*--------------------------------------------------------------
@@ -1137,6 +1144,7 @@ section {
   color: #fff;
   transition: 0.4s;
   border-radius: 4px;
+  font-size: 18px;
 }
 .contact .php-email-form button[type=submit]:hover {
   /* background: #e0672a; */
@@ -1157,6 +1165,12 @@ section {
   }
   100% {
     transform: rotate(360deg);
+  }
+}
+
+@media (max-width: 768px) {
+  .contact .php-email-form button[type=submit] {
+    font-size: 14px;
   }
 }
 
