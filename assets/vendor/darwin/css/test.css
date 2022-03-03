@@ -1507,13 +1507,13 @@ select {
     color: inherit
 }
 ._9bb1a {
-    padding-top: 7.5rem;
-    padding-bottom: 7.5rem
+    padding-top: 5rem;
+    padding-bottom: 5rem
 }
 @media(max-width:576px) {
     ._9bb1a {
-        padding-top: 4.375rem;
-        padding-bottom: 4.375rem
+        padding-top: 2rem;
+        padding-bottom: 2rem
     }
 }
 .a2c9f:first-child>._9bb1a:first-child {
@@ -4966,6 +4966,11 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 }
 .c0bb7 a {
     color: #f36f2e;
+}
+.c8247 {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    color: #000000;
 }
 
 @media (max-width: 768px) {
