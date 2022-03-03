@@ -1511,7 +1511,7 @@ select {
     color: inherit
 }
 ._9bb1a {
-    padding-top: 5rem;
+    padding-top: 3rem;
     padding-bottom: 5rem
 }
 @media(max-width:576px) {
@@ -2038,7 +2038,7 @@ select {
     transform: translate(-50%, -50%) scale(1)
 }
 ._3061b {
-    margin-top: .75rem
+    /* margin-top: .75rem */
 }
 @media(min-width:36.0625rem) {
     ._3061b {
@@ -4965,8 +4965,8 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     font-size: 70px;
 }
 .c0bb7 {
-    font-family: Montserrat, sans-serif;
     font-size: 20px;
+    color: #4e4039;
 }
 .c0bb7 a {
     color: #f36f2e;
@@ -4979,12 +4979,25 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 .c8247:hover {
     color: #000000;
 }
+._3061b {
+    font-family: "Graphik-web", sans-serif;
+    color: #4e4039;
+}
 
 @media (max-width: 768px) {
     .section-2 {
         font-size: 40px;
     }
     .c0bb7 {
+        font-size: 18px;
+    }
+    ._3061b {
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 768px) {
+    ._3061b {
         font-size: 18px;
     }
 }
