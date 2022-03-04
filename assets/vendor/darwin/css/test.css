@@ -1577,8 +1577,9 @@ select {
     }
 }
 .a68be>span, .c14c3 {
-    overflow: hidden
+    overflow: hidden;
 }
+
 .a68be span span, .c14c3 span {
     transform: translateY(100%);
     transition: transform 1s ease .5s;
