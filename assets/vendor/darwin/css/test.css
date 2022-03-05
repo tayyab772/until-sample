@@ -4955,11 +4955,6 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     float: left
 }
 
-/* Unnecessary Footer */
-.footer-dis {
-    display: none;
-}
-
 /* Section 2 - bubble animation */
 .section-2 {
     font-family: Montserrat, sans-serif;
