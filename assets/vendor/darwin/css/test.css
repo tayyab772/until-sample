@@ -4955,7 +4955,7 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     float: left
 }
 
-/* Section 2 - bubble animation */
+/* Hero section - bubble animation section */
 .section-2 {
     font-family: Montserrat, sans-serif;
     font-size: 70px;
@@ -4978,6 +4978,12 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 ._3061b {
     font-family: "Graphik-web", sans-serif;
     color: #4e4039;
+}
+.a68be span {
+    /* padding-top: 100px; */
+}
+.we-create {
+    color:red;
 }
 
 @media (max-width: 768px) {
