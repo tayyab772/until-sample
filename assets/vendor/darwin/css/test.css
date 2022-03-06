@@ -1580,7 +1580,7 @@ select {
     overflow: hidden;
 }
 
-.a68be span span, .c14c3 span {
+.c14c3 span {
     transform: translateY(100%);
     transition: transform 1s ease .5s;
     display: block
@@ -4333,6 +4333,7 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 ._486ca {
     background-color: #fff
 }
+/* Hide Footer */
 .e6c5d {
     display: flex
 }

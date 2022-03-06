@@ -1450,14 +1450,17 @@ section {
   color: #fff;
 }
 .address-row {
-  margin-left: 75px;
+  margin-left: 110px;
 }
 @media (max-width: 768px) {
   .address-row {
-    margin-left: 20px;
+    margin-left: 0;
   }
 }
 
 .hide-display {
+  display: none;
+}
+.hide-display-footer {
   display: none;
 }
