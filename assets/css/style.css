@@ -501,7 +501,7 @@ section {
   font-family: "Graphik-web", sans-serif;
 }
 .about .about-com {
-  font-size: 16px;
+  font-size: 18px;
   text-align: center;
 }
 @media (max-width: 991px) {
@@ -512,6 +512,9 @@ section {
 @media (max-width: 767px) {
   .about .about-img img {
     max-width: 90%;
+  }
+  .about .about-com {
+    font-size: 16px;
   }
 }
 
