@@ -478,6 +478,9 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about {
+  padding-top: 0;
+}
 .about h3 {
   font-weight: 700;
   font-size: 30px;
@@ -563,13 +566,6 @@ section {
   transform: translateY(-5px);
   border-color: #f36f2e;  /* Old:#ef7f4d */
 }
-
-/* .services .icon i {
-  font-size: 48px;
-  line-height: 1;
-  margin-bottom: 15px;
-  color: #ef7f4d;
-} */
 
 /* Icon Style */
 #services .icon {
@@ -920,10 +916,10 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 40px;
+  padding-bottom: 20px;
+  padding-top: 20px;
 }
 /* @media (min-width: 768px) {
-
 } */
 .profile-card{
   position: relative;
@@ -970,7 +966,7 @@ section {
   opacity: 1;
 }
 .caption h3{
-  font-size: 21px;
+  font-size: 22px;
   font-weight: bold;
   color: #212529;
 }
