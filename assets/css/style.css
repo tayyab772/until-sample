@@ -998,21 +998,25 @@ section {
   color: #1DA1F2;
   background: #fff;
   box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
+  transition: .4s;
 }
 .social-links-team .facebook:hover {
   color: #4267B2;
   background: #fff;
   box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
+  transition: .4s;
 }
 .social-links-team .instagram:hover {
   color: #e025a5;
   background: #fff;
   box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
+  transition: .4s;
 }
 .social-links-team .linkedin:hover {
   color: #0077b5;
   background: #fff;
   box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
+  transition: .4s;
 }
 
 /*--------------------------------------------------------------
