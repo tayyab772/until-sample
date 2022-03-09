@@ -2540,9 +2540,6 @@ select {
 ._2ec2f {
     top: -9999999px
 }
-._9ea62 {
-    background-color: #efefef
-}
 ._171c5 {
     max-width: 9.8125rem;
     margin: 0 auto 1.25rem
@@ -4956,6 +4953,8 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     float: left
 }
 
+
+
 /* Hero section - bubble animation section */
 .section-2 {
     font-family: Montserrat, sans-serif;
@@ -4996,6 +4995,10 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     }
     ._3061b {
         font-size: 18px;
+    }
+    .col-xs-6 {
+        flex: 0 0 auto;
+        width: 50%;
     }
 }
 
