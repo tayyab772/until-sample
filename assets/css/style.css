@@ -478,6 +478,27 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
+.about .getstarted, .about .getstarted:focus {
+  background: #f36f2e;
+  color: #fff;
+  padding: 10px 26px;
+  border-radius: 40px;
+  text-align: center;
+}
+.about .getstarted:hover, .about .getstarted:focus:hover {
+  color: #fff;
+  background: #e0672a;
+}
+.about a, .about a:focus {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0 10px 30px;
+  font-size: 18px;
+  color: #4e4039;
+  white-space: nowrap;
+  transition: 0.3s;
+}
 .about {
   padding-top: 0;
 }
