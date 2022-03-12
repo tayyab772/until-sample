@@ -769,7 +769,43 @@ section {
   opacity: 1;
   bottom: 0;
 }
-
+/* Technology Filter */
+.portfolio .technology-wrap {
+  transition: 0.3s;
+  position: relative;
+  overflow: hidden;
+  border-radius: 8px;
+  z-index: 1;
+  text-align: center;
+}
+.portfolio .technology-wrap::before {
+  content: "";
+  background: rgba(122, 105, 96, 0.6);
+  position: absolute;
+  left: 100%;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  transition: all ease-in-out 0.3s;
+  z-index: 2;
+}
+.portfolio .technology-wrap img {
+  height: 55px;
+  width: 55px;
+  transition: 0.3s;
+  position: relative;
+  z-index: 1;
+}
+.portfolio .technology-wrap .technology-info {
+  text-align: center;
+  padding-top: 14px;
+}
+.portfolio .technology-wrap .technology-info h4 {
+  font-size: 17px;
+  color: #4e4039;
+  font-weight: 400;
+  font-family: Montserrat, sans-serif;
+}
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1090,6 +1126,20 @@ section {
 }
 .clients .clients-slider .swiper-pagination .swiper-pagination-bullet-active {
   background-color: #f36f2e;
+}
+.img-fluid-client {
+  /* max-width: 100%; */
+  max-width: 120px;
+  height: auto;
+}
+@media (max-width: 768px) {
+  .img-fluid-client {
+    max-width: 110px;
+    height: auto;
+  }
+  .client-logo {
+    padding-left: 28px;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1618,8 +1668,12 @@ section {
 .contact-us-button label:hover span {
   color: #f36f2e;
 }
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
 
 
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
 /* Custom aos Animation Time */
 /* data-aos-duration="1" */
 [data-aos][data-aos][data-aos-duration="1"],body[data-aos-duration="1"] [data-aos]{
@@ -1662,5 +1716,64 @@ section {
   }
   [data-aos][data-aos][data-aos-delay="2"].aos-animate,body[data-aos-delay="2"] [data-aos].aos-animate{
     transition-delay:2.6s
+  }
+}
+
+/* //////// col-xs- Grid //////// */
+@media (max-width: 576px) {
+  .col-xs {
+    flex: 1 0 0%;
+  }
+  .col-xs-auto {
+    flex: 0 0 auto;
+    width: auto;
+  }
+  .col-xs-1 {
+    flex: 0 0 auto;
+    width: 8.33333333%;
+  }
+  .col-xs-2 {
+    flex: 0 0 auto;
+    width: 16.66666667%;
+  }
+  .col-xs-3 {
+    flex: 0 0 auto;
+    width: 25%;
+  }
+  .col-xs-4 {
+    flex: 0 0 auto;
+    width: 33.33333333%;
+  }
+  .col-xs-5 {
+    flex: 0 0 auto;
+    width: 41.66666667%;
+  }
+  .col-xs-6 {
+    flex: 0 0 auto;
+    width: 50%;
+  }
+  .col-xs-7 {
+    flex: 0 0 auto;
+    width: 58.33333333%;
+  }
+  .col-xs-8 {
+    flex: 0 0 auto;
+    width: 66.66666667%;
+  }
+  .col-xs-9 {
+    flex: 0 0 auto;
+    width: 75%;
+  }
+  .col-xs-10 {
+    flex: 0 0 auto;
+    width: 83.33333333%;
+  }
+  .col-xs-11 {
+    flex: 0 0 auto;
+    width: 91.66666667%;
+  }
+  .col-xs-12 {
+    flex: 0 0 auto;
+    width: 100%;
   }
 }
