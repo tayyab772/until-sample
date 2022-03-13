@@ -96,6 +96,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   margin-top: 72px;
 }
 
+.justify-content-center {
+  justify-content: center !important;
+}
+
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -545,8 +549,8 @@ section {
   color: #fff;
   z-index: 0;
   font-size: 18px;
-  margin-right: 22px;
-  padding: 15px;
+  margin-right: 26px;
+  /* padding: 15px; */
   transition: all .3s ease-in;
 }
 .services-button label:hover {
@@ -611,6 +615,9 @@ section {
   transform: translateY(-5px);
   border-color: #f36f2e;  /* Old:#ef7f4d */
 }
+.services .icon-box:hover .view-more h4 {
+  background: #fff0da;
+}
 
 /* Icon Style */
 #services .icon {
@@ -621,14 +628,8 @@ section {
   border-radius: 50%;
   width: 60px;
   height: 60px;
-  /* background-color: #fff0da; */
+  transition: 0.3s;
 }
-/* Zoom-In Hover Animation */
-/* #services .icon-box:hover {
-  -webkit-transform: scale(1.1);
-  transform: scale(1.1);
-} */
-
 #services .icon-box:hover .icon {
   background-color: #fff0da;
 }
@@ -651,6 +652,21 @@ section {
   line-height: 28px;
   margin-bottom: 0;
   color: #686868;
+}
+.services .icon-box .view-more {
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: .5px;
+}
+.services .icon-box .view-more h4 {
+  font-size: 14px;
+  padding-top: 11px;
+  padding-left: 10px;
+  border-radius: 8px;
+  color: #f36f2e;
+  font-weight: 400;
+  height: 40px;
+  transition: 0.3s;
 }
 
 /*--------------------------------------------------------------
@@ -826,9 +842,6 @@ section {
 }
 .portfolio .technology-wrap .view-more:hover h4 {
   background: #fff0da;
-}
-.portfolio .technology-wrap .view-more i {
-  font-size: 16px;
 }
 .technology-box {
   justify-content: center !important;
@@ -1733,6 +1746,9 @@ section {
 .opacity-30 {
   opacity:0.3;
 }
+.opacity-25 {
+  opacity:0.25;
+}
 .opacity-20 {
   opacity:0.2;
 }
@@ -1843,5 +1859,54 @@ section {
   .col-xs-12 {
     flex: 0 0 auto;
     width: 100%;
+  }
+}
+
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
+
+/*--------------------------------------------------------------
+# process.html
+--------------------------------------------------------------*/
+.process {
+  display: block !important;
+  position: relative;
+  padding: 60px 0;
+
+}
+.process-box {
+  min-width: 250px;
+  max-width: 250px;
+  min-height: 350px;
+  overflow: hidden;
+  position: relative;
+  padding: 45px 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  -webkit-box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 10px 15px 0 rgba(0,0,0,.1);
+  max-width: 100%;
+  min-width: 100%;
+  min-height: 100%;
+  background-color: #fff;
+}
+.process-card {
+  text-align: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
+  display: flex !important;
+  text-align: center !important;
+}
+.desc {
+  font-size: 17px;
+}
+.process-box .process-icon img {
+  height: 55px;
+  width: 55px;
+}
+@media (max-width: 768px) {
+  .process-box .process-icon img {
+    height: 60px;
+    width: 60px;
   }
 }
