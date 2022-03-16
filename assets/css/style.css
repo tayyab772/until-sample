@@ -425,6 +425,7 @@ section {
   font-size: 32px;
   font-weight: 700;
   color: #4e4039;
+  font-family: "Open Sans", sans-serif;
 }
 .section-title p::after {
   content: "";
@@ -618,7 +619,6 @@ section {
 .services .icon-box:hover .view-more h4 {
   background: #fff0da;
 }
-
 /* Icon Style */
 #services .icon {
   margin: 0 auto 15px auto;
@@ -667,6 +667,10 @@ section {
   font-weight: 400;
   height: 40px;
   transition: 0.3s;
+}
+.link-icon {
+  margin-left: .5rem;
+  transition: transform .3s ease-in-out;
 }
 
 /*--------------------------------------------------------------
@@ -1046,8 +1050,6 @@ section {
   padding-bottom: 20px;
   padding-top: 20px;
 }
-/* @media (min-width: 768px) {
-} */
 .profile-card{
   position: relative;
   width: 300px;
@@ -1095,7 +1097,7 @@ section {
 .caption h3{
   font-size: 22px;
   font-weight: bold;
-  color: #212529;
+  color: #4E4039;
 }
 .caption h4 {
   font-size: 14px;
@@ -1863,9 +1865,6 @@ section {
 }
 
 /*--------------------------------------------------------------
---------------------------------------------------------------*/
-
-/*--------------------------------------------------------------
 # process.html
 --------------------------------------------------------------*/
 .process {
@@ -1909,4 +1908,79 @@ section {
     height: 60px;
     width: 60px;
   }
+}
+
+/*--------------------------------------------------------------
+# Case Study
+--------------------------------------------------------------*/
+.case-study .case-div {
+  padding-top: 40px;
+}
+.case-box {
+  padding: 30px;
+  position: relative;
+  margin: 0 0 40px 0;
+  background: #fff;
+  box-shadow: 0 15px 15px rgba(68, 88, 144, 0.1);
+  border-radius: 15px;
+  text-align: center;
+}
+.case-study .case-img {
+  position: relative;
+  width: 100%;
+  transition: .6s;
+  z-index: 99;
+  transform: translateY(-60px);
+}
+.case-study .case-img img {
+  width: 100%;
+  border-radius: 10px;
+}
+.case-study .title {
+  font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+.case-study .title a {
+  color: #4E4039;
+}
+.case-study .description {
+  font-size: 14px;
+  color: #999;
+  margin: 0 0 12px 0;
+  /* font-weight: bold; */
+  /* font-style: italic; */
+  font-family: Montserrat, sans-serif;
+}
+.case-study .tools .tech-chip {
+  font-size: 13px;
+  padding: 3px 10px;
+  color: #4e4039;
+  background-color: rgba(0,0,0,.05);
+  border-radius: 15px;
+  font-family: Montserrat, sans-serif;
+}
+.mr-1, .mx-1 {
+  margin-right: .25rem !important;
+}
+.mt-1, .my-1 {
+  margin-top: .25rem !important;
+}
+.case-study .view-more {
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: .5px;
+}
+.case-study .view-more h4 {
+  font-size: 14px;
+  padding-top: 11px;
+  padding-left: 10px;
+  border-radius: 8px;
+  color: #f36f2e;
+  font-weight: 400;
+  height: 40px;
+  transition: 0.3s;
+}
+.case-study .case-box:hover .view-more h4 {
+  background: #fff0da;
 }
