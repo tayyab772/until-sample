@@ -1,4 +1,3 @@
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -669,12 +668,14 @@ section {
   transition: 0.3s;
 }
 .link-icon {
-  margin-left: .5rem;
-  transition: transform .3s ease-in-out;
+  margin-left: .1rem;
+  transition: transform .2s ease-in-out;
 }
-
+.services .icon-box .view-more:hover .link-icon {
+  transform: translateX(5px);
+}
 /*--------------------------------------------------------------
-# Portfolio
+# Portfolio & Technology
 --------------------------------------------------------------*/
 .portfolio .portfolio-item {
   margin-bottom: 30px;
@@ -837,7 +838,7 @@ section {
 .portfolio .technology-wrap .view-more h4 {
   font-size: 16px;
   padding-top: 11px;
-  padding-left: 10px;
+  /* padding-left: 10px; */
   border-radius: 8px;
   color: #f36f2e;
   font-weight: 400;
@@ -846,6 +847,9 @@ section {
 }
 .portfolio .technology-wrap .view-more:hover h4 {
   background: #fff0da;
+}
+.portfolio .technology-wrap .view-more h4:hover .link-icon {
+  transform: translateX(5px);
 }
 .technology-box {
   justify-content: center !important;
