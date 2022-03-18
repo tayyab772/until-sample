@@ -674,6 +674,39 @@ section {
 .services .icon-box .view-more:hover .link-icon {
   transform: translateX(5px);
 }
+/*//////////////////// Services Pages ////////////////// */
+.sub-title {
+  font-weight: 700;
+  font-size: 30px;
+  color: #4e4039;
+}
+.overview-content {
+  text-align: left !important;
+}
+.overview-content .content {
+  line-height: 35px;
+  letter-spacing: .2px;
+}
+.services .portfolio-details-slider .swiper-pagination {
+  margin-top: 20px;
+  position: relative;
+}
+.services .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet {
+  width: 12px;
+  height: 12px;
+  background-color: #fff;
+  opacity: 1;
+  border: 1px solid #f36f2e;
+}
+.services .portfolio-details-slider .swiper-pagination .swiper-pagination-bullet-active {
+  background-color: #f36f2e;
+}
+.services .portfolio-details-slider {
+  display: block;
+  display: block;
+  overflow: hidden;
+}
+
 /*--------------------------------------------------------------
 # Portfolio & Technology
 --------------------------------------------------------------*/
@@ -1670,7 +1703,7 @@ section {
 .request-quote .contact-us {
   width: 100%;
   border-radius: 15px;
-  padding: 45px 0;
+  padding: 45px 20px;
   background: #fef8f5;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   text-align: center !important;
@@ -1703,6 +1736,7 @@ section {
   position: relative;
   cursor: pointer;
   min-height: 40px;
+  width: 250px;
   border-radius: 50px;
   transition: all .3s ease-in;
 }
@@ -1712,6 +1746,9 @@ section {
   margin-left: 0 !important;
   padding: 15px;
   transition: all .3s ease-in;
+}
+.contact-us-button svg {
+  margin-left: .1rem;
 }
 .contact-us-button label:hover {
   background-color: #fef8f5;
@@ -1903,6 +1940,9 @@ section {
 .desc {
   font-size: 17px;
 }
+.process-div {
+  padding-bottom: 20px;
+}
 .process-box .process-icon img {
   height: 55px;
   width: 55px;
@@ -1987,4 +2027,7 @@ section {
 }
 .case-study .case-box:hover .view-more h4 {
   background: #fff0da;
+}
+.case-study .view-more:hover .link-icon {
+  transform: translateX(5px);
 }
