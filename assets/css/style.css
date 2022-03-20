@@ -675,18 +675,32 @@ section {
   transform: translateX(5px);
 }
 /*//////////////////// Services Pages ////////////////// */
-.sub-title {
+.overview-content {
+  text-align: left !important;
+}
+.overview-content .sub-title {
   font-weight: 700;
   font-size: 30px;
   color: #4e4039;
-}
-.overview-content {
-  text-align: left !important;
 }
 .overview-content .content {
   line-height: 35px;
   letter-spacing: .2px;
 }
+.platform-content {
+  text-align: left !important;
+  padding: 0 15px;
+}
+.platform-content .sub-title {
+  font-weight: 700;
+  font-size: 27px;
+  color: #4e4039;
+}
+.platform-content .content {
+  line-height: 30px;
+  letter-spacing: .2px;
+}
+
 .services .portfolio-details-slider .swiper-pagination {
   margin-top: 20px;
   position: relative;
@@ -721,21 +735,20 @@ section {
 }
 .portfolio #portfolio-flters li {
   cursor: pointer;
-  margin: 0 15px 15px 0;
   display: inline-block;
-  padding: 5px;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 600;
-  line-height: 20px;
-  color: #212529;
-  margin-bottom: 5px;
-  transition: all 0.3s ease-in-out;
+  line-height: 1;
+  color: #4e4039;
+  padding: 8px 20px 10px 20px;
+  margin: 0 4px 8px 4px;
+  transition: 0.3s;
+  border-radius: 50px;
+  border: 1px solid #fff;
 }
 .portfolio #portfolio-flters li:hover, .portfolio #portfolio-flters li.filter-active {
   color: #f36f2e;
-  background: #fef8f5;
-  border-radius: 8px;
-  height: 30px;
+  border-color: #f36f2e;
 }
 .portfolio #portfolio-flters li:last-child {
   margin-right: 0;
@@ -1084,7 +1097,7 @@ section {
   display: flex;
   justify-content: center;
   align-items: center;
-  padding-bottom: 20px;
+  padding-bottom: 40px;
   padding-top: 20px;
 }
 .profile-card{
@@ -1115,7 +1128,6 @@ section {
 .team-img img{
   width: 100%;
   border-radius: 50%;
-  /* box-shadow: 0 0 22px #3336; */
   box-shadow: 0 0 15px rgba(68, 88, 144, 0.1);
   transition: .6s;
 }
@@ -1183,6 +1195,67 @@ section {
   background: #fff;
   box-shadow: 0px 3px 20px rgb(0 0 0 / 10%);
   transition: .4s;
+}
+.team .org-line::after {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 60px;
+  height: 2px;
+  background: #c2b7b1;
+  left: calc(50% - 30px);
+}
+.team .content {
+  margin-bottom: 15px;
+  padding: 10px 15% 0 15%;
+  text-align: center;
+  position: relative;
+  font-size: 38px;
+  font-weight: 700;
+  color: #4e4039;
+  font-family: Montserrat, sans-serif;
+}
+.team .whatsapp-banner {
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.team .whatsapp-banner .button-whatsapp {
+  position: relative;
+  color: #fff;
+  background: linear-gradient(95.77deg,#3ee45c 0,#30b849 100%);
+  column-gap: 8px;
+  padding: 12px 32px;
+  font-size: 18px;
+  line-height: 150%;
+  border-radius: 50px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  white-space: nowrap;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.team .whatsapp-banner .button-whatsapp i {
+  font-size: 22px;
+}
+.team .whatsapp-banner .button-whatsapp:hover {
+  background-color: #207a31;
+  box-shadow: 0 10px 10px rgba(68, 88, 144, 0.1);
+}
+
+@media (max-width: 768px) {
+  .team .content {
+    padding: 0 5%;
+    font-size: 30px;
+  }
+}
+@media (min-width: 1025px) {
+  .team .content {
+    padding: 10px 20% 0 20%;
+  }
 }
 
 /*--------------------------------------------------------------
@@ -1493,27 +1566,35 @@ section {
   /* background: #c54811; */
   background: #e0672a;
 }
-#footer .footer-img {
-  height: 70px;
-  width: 70px;
-}
 #footer .footer-top {
   padding: 60px 0 30px 0;
-  background: #fff;
+  background: white url(../img/footer-bg.png) no-repeat right top;
+  background-size: contain;
+  border-top: 1px solid #e1ecff;
+  border-bottom: 1px solid #e1ecff;
+}
+#footer .footer-top .footer-logo {
+  text-align: center !important;
+  align-items: center !important;
+  flex-direction: column !important;
 }
 #footer .footer-top .footer-logo img {
-  width: 150px;
-  height: 150px;
+  width: 140px;
+  height: 140px;
+}
+#footer .footer-top .footer-logo p {
+  font-size: 14px;
+  color: #5c5c5c;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
 }
 #footer .footer-top .footer-contact h4 {
-  font-size: 22px;
-  margin: 0 0 30px 0;
-  padding: 2px 0 2px 0;
-  line-height: 1;
-  font-weight: 700;
+  font-size: 18px;
+  font-weight: bold;
+  color: #4E4039;
+  position: relative;
+  padding-bottom: 8px;
 }
 #footer .footer-top .footer-contact p {
   font-size: 14px;
@@ -1617,6 +1698,12 @@ section {
 @media (max-width: 768px) {
   #footer .footer-top {
     padding: 20px 0 30px 0;
+    background-position: center bottom;
+  }
+  #footer .footer-top .center-align {
+    text-align: center !important;
+    align-items: center !important;
+    flex-direction: column !important;
   }
 }
 @media (max-width: 575px) {
@@ -1628,13 +1715,12 @@ section {
   }
 }
 
+/*--------------------------------------------------------------
+--------------------------------------------------------------*/
 /* Orange Dot style */
 .org-dot {
   color: #f36f2e;
 }
-/*--------------------------------------------------------------
---------------------------------------------------------------*/
-
 /*--------------------------------------------------------------
 # request-quote.html
 --------------------------------------------------------------*/
@@ -1718,11 +1804,12 @@ section {
   font-family: Montserrat, sans-serif;
 }
 .request-quote .contact-us h3 {
+  line-height: 30px;
   font-size: 18px;
   font-weight: 500;
   color: #999;
 }
-.contact-us-button {
+.contact-us-button, .contact-us-button-2 {
   text-align: center !important;
   margin-top: 35px;
 }
@@ -1738,16 +1825,16 @@ section {
   min-height: 40px;
   width: 250px;
   border-radius: 50px;
-  transition: all .3s ease-in;
+  transition: .3s;
 }
 .contact-us-button span {
   color: #fff;
   z-index: 0;
   margin-left: 0 !important;
   padding: 15px;
-  transition: all .3s ease-in;
+  transition: .3s;
 }
-.contact-us-button svg {
+.contact-us-button svg, .contact-us-button-2 svg {
   margin-left: .1rem;
 }
 .contact-us-button label:hover {
@@ -1756,6 +1843,34 @@ section {
 }
 .contact-us-button label:hover span {
   color: #f36f2e;
+}
+.contact-us-button-2 label {
+  background-color: #fef8f5;
+  border: 1px solid #f36f2e;
+  z-index: 1;
+  align-items: center !important;
+  display: inline-flex !important;
+  text-align: center !important;
+  font-size: 16px;
+  position: relative;
+  cursor: pointer;
+  min-height: 40px;
+  width: 250px;
+  border-radius: 50px;
+  transition: .3s;
+}
+.contact-us-button-2 span {
+  color: #f36f2e;
+  z-index: 0;
+  margin-left: 0 !important;
+  padding: 15px;
+  transition: .3s;
+}
+.contact-us-button-2 label:hover {
+  background: #f36f2e;
+}
+.contact-us-button-2 label:hover span {
+  color: #fff;
 }
 /*--------------------------------------------------------------
 --------------------------------------------------------------*/
