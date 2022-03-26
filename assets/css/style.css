@@ -2026,7 +2026,7 @@ section {
 .process {
   display: block !important;
   position: relative;
-  padding: 60px 0;
+  padding: 90px 0 60px 0;
 
 }
 .process-box {
