@@ -686,8 +686,9 @@ section {
 .overview-content .content {
   line-height: 35px;
   letter-spacing: .2px;
+  color: #686868;
 }
-.platform-content {
+.platform-content, .ui-content {
   text-align: left !important;
   padding: 0 15px;
 }
@@ -699,6 +700,65 @@ section {
 .platform-content .content {
   line-height: 30px;
   letter-spacing: .2px;
+  color: #686868;
+}
+.about-web .overview-content {
+  padding-bottom: 60px;
+}
+.ui-content .sub-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #4e4039;
+}
+.ui-content .content{
+  line-height: 30px;
+  letter-spacing: .2px;
+  font-size: 16px;
+  color: #686868;
+}
+.approach-content {
+  text-align: center !important;
+}
+.approach-content .content {
+  line-height: 35px;
+  letter-spacing: .2px;
+  color: #686868;
+}
+.approach-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 0 0 0;
+}
+.approach-box .approach-icon {
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-position: center center;
+  width: 80px;
+  height: 80px;
+  background-image: url(../img/process/base-img-bg.svg);
+  -webkit-box-align: center;
+  margin-bottom: -40px;
+}
+.approach-box .approach-icon img {
+  width: 80px;
+  height: 80px;
+}
+.approach-part-content {
+  text-align: left !important;
+}
+.approach-part-content .sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4e4039;
+  margin-bottom: -10px;
+  font-family: "Open Sans", sans-serif;
+}
+.approach-part-content .content{
+  line-height: 30px;
+  letter-spacing: .2px;
+  font-size: 18px;
+  color: #686868;
 }
 
 .services .portfolio-details-slider .swiper-pagination {
@@ -1491,7 +1551,7 @@ section {
   background: #fef8f5;
 }
 #footer .footer-newsletter {
-  padding: 50px 0;
+  padding: 220px 0 50px 0;
   background: #fef8f5;
   text-align: center;
   font-size: 15px;
@@ -1786,28 +1846,42 @@ section {
 /*--------------------------------------------------------------
 # contact us section box
 --------------------------------------------------------------*/
-.request-quote .contact-us {
+.request-quote {
+  padding: 60px 0 0 0;
+  margin-bottom: -140px;
+}
+.request-quote-2 {
+  padding: 30px 0;
+}
+.request-quote .contact-us, .request-quote-2 .contact-us {
   width: 100%;
-  border-radius: 15px;
+  border-radius: 25px;
   padding: 45px 35px;
   background: #fef8f5;
   box-shadow: 0 0 24px 0 rgba(0, 0, 0, 0.12);
   text-align: center !important;
+  color: #686868;
 }
-.request-quote .contact-us p {
+.request-quote .contact-us {
+  /* background: #c2b7b1 url(../img/footer-bg.png) no-repeat center; */
+  background: #c2b7b1 url(../img/pattern2.svg) no-repeat right bottom;
+  background-size: contain;
+}
+.request-quote .contact-us p, .request-quote-2 .contact-us p {
   padding-bottom: 15px;
   margin-bottom: 15px;
   position: relative;
   font-size: 28px;
   font-weight: 700;
+  /* color: #ffffff; */
   color: #4e4039;
   font-family: Montserrat, sans-serif;
 }
-.request-quote .contact-us h3 {
+.request-quote .contact-us h3, .request-quote-2 .contact-us h3 {
   line-height: 30px;
   font-size: 18px;
   font-weight: 500;
-  color: #999;
+  color: rgb(255, 255, 255);
 }
 .contact-us-button, .contact-us-button-2 {
   text-align: center !important;
@@ -1838,7 +1912,7 @@ section {
   margin-left: .1rem;
 }
 .contact-us-button label:hover {
-  background-color: #fef8f5;
+  background-color: #c2b7b1;
   border: 1px solid #f36f2e;
 }
 .contact-us-button label:hover span {
