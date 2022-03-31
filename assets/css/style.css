@@ -780,6 +780,20 @@ section {
   display: block;
   overflow: hidden;
 }
+.graphic-type {
+  padding: 30px;
+  border-radius: 10px;
+}
+.graphic-type h3 {
+  color: #fff;
+  align-items: center;
+  font-size: 24px;
+  font-weight: 700;
+}
+.branding-design {
+  background: #c2b7b1 url(../img/branding-design.jpg) no-repeat center bottom;
+  background-size: cover;
+}
 
 /*--------------------------------------------------------------
 # Portfolio & Technology
@@ -2219,4 +2233,28 @@ section {
 }
 .case-study .view-more:hover .link-icon {
   transform: translateX(5px);
+}
+
+/*--------------------------------------------------------------
+# Approach page
+--------------------------------------------------------------*/
+.graphic-approach-box {
+  display: flex;
+  align-items: center;
+}
+.graphic-approach-content {
+  text-align: left !important;
+  margin: -10px 0;
+}
+.graphic-approach-content .sub-title {
+  font-weight: 700;
+  font-size: 24px;
+  color: #4e4039;
+  font-family: "Open Sans", sans-serif;
+}
+.graphic-approach-content .content{
+  line-height: 30px;
+  letter-spacing: .2px;
+  font-size: 16px;
+  color: #686868;
 }
