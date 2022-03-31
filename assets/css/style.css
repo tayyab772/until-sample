@@ -642,13 +642,14 @@ section {
   font-weight: 700;
   margin-bottom: 15px;
   font-size: 18px;
+  line-height: 28px;
 }
 .services .title a {
   color: #4E4039;
 }
 .services .description {
   font-size: 15px;
-  line-height: 28px;
+  line-height: 25px;
   margin-bottom: 0;
   color: #686868;
 }
@@ -780,18 +781,68 @@ section {
   display: block;
   overflow: hidden;
 }
-.graphic-type {
+.graphic-box {
   padding: 30px;
-  border-radius: 10px;
+  position: relative;
+  overflow: hidden;
+  margin: 0 0 40px 0;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  transition: all 0.3s ease-in-out;
+  border-radius: 15px;
+  text-align: center;
 }
-.graphic-type h3 {
-  color: #fff;
-  align-items: center;
-  font-size: 24px;
+.graphic-box .title {
   font-weight: 700;
+  margin-bottom: 15px;
+  font-size: 22px;
+  line-height: 28px;
+  border-radius: 10px;
+  padding: 5px;
+  background-color: rgba(255, 255, 255, 0.65);
 }
+.graphic-box .title a {
+  color: inherit;
+}
+.graphic-box .description {
+  font-size: 15px;
+  line-height: 25px;
+  margin-bottom: 0;
+  padding: 10px 5px;
+  border-radius: 10px;
+  color: #4E4039;
+  background-color: rgba(255, 255, 255, 0.65);
+}
+
 .branding-design {
-  background: #c2b7b1 url(../img/branding-design.jpg) no-repeat center bottom;
+  background: #c2b7b1 url(../img/branding-design.jpg) no-repeat center center;
+  background-size: cover;
+}
+.fashion-design {
+  background: url(../img/fashion-design.jpg) no-repeat center center;
+  background-size: cover;
+}
+.flyer-design {
+  background: url(../img/flyer-design.jpg) no-repeat center center;
+  background-size: cover;
+}
+.illustration-design {
+  background: url(../img/illustration-design.jpeg) no-repeat center center;
+  background-size: cover;
+}
+.animation-design {
+  background: url(../img/animation-design.png) no-repeat center center;
+  background-size: cover;
+}
+.social-design {
+  background: url(../img/socialmedia-design.jpg) no-repeat center center;
+  background-size: cover;
+}
+.interior-design {
+  background: url(../img/interior-design.jpg) no-repeat center center;
+  background-size: cover;
+}
+.product-design {
+  background: url(../img/product-design.jpg) no-repeat center center;
   background-size: cover;
 }
 
