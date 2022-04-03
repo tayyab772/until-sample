@@ -568,6 +568,9 @@ section {
   .about .about-com {
     font-size: 16px;
   }
+  .about-img {
+    padding-top: 20px;
+  }
 }
 
 /* ----------------------------------------------------------
