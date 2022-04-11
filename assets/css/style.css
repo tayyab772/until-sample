@@ -692,6 +692,43 @@ section {
   letter-spacing: .2px;
   color: #686868;
 }
+.photography-section .overview-content {
+  padding: 0 0 20px 0;
+}
+.photography-section .overview-content .sub-title {
+  font-size: 36px;
+  text-align: center !important;
+}
+.photography-section .overview-content .title-description {
+  font-size: 20px;
+  color: #c2b7b1;
+  text-align: center !important;
+  font-family: "Open Sans", sans-serif;
+}
+.photography-section .photography-content {
+  text-align: left !important;
+}
+.photography-section .photography-content .sub-title {
+  font-size: 28px;
+  font-weight: 700;
+  color: #4e4039;
+  text-align: left !important;
+}
+.photography-section .photography-content .content {
+  line-height: 35px;
+  letter-spacing: .2px;
+  color: #686868;
+}
+@media (max-width: 768px) {
+  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production {
+    padding: 15px 10px;
+  }
+}
+@media (min-width: 992px) {
+  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production {
+    padding: 40px;
+  }
+}
 .platform-content, .ui-content {
   text-align: left !important;
   padding: 0 15px;
@@ -1932,7 +1969,7 @@ section {
 }
 .request-quote .contact-us {
   /* background: #c2b7b1 url(../img/footer-bg.png) no-repeat center; */
-  background: #fef8f5 url(../img/contact-bg4.png) no-repeat right bottom;
+  background: #fef8f5 url(../img/contact-bg.png) no-repeat right bottom;
   background-size: contain;
 }
 .request-quote .contact-us p, .request-quote-2 .contact-us p {
