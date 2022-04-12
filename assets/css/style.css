@@ -692,41 +692,84 @@ section {
   letter-spacing: .2px;
   color: #686868;
 }
-.photography-section .overview-content {
+.photography-section .overview-content,
+.videography-section .overview-content {
   padding: 0 0 20px 0;
 }
-.photography-section .overview-content .sub-title {
+.photography-section .overview-content .sub-title,
+.videography-section .overview-content .sub-title {
   font-size: 36px;
   text-align: center !important;
 }
-.photography-section .overview-content .title-description {
+.photography-section .overview-content .title-description,
+.videography-section .overview-content .title-description {
   font-size: 20px;
   color: #c2b7b1;
   text-align: center !important;
   font-family: "Open Sans", sans-serif;
 }
-.photography-section .photography-content {
+.photography-section .photography-content,
+.videography-section .videography-content {
   text-align: left !important;
 }
-.photography-section .photography-content .sub-title {
+.photography-section .photography-content .sub-title,
+.videography-section .videography-content .sub-title {
   font-size: 28px;
   font-weight: 700;
   color: #4e4039;
   text-align: left !important;
 }
-.photography-section .photography-content .content {
+.photography-section .photography-content .content,
+.videography-section .videography-content .content {
   line-height: 35px;
   letter-spacing: .2px;
   color: #686868;
 }
+.go-gallery .gallery-header .gallery-title {
+  font-size: 36px;
+  font-weight: 700;
+  color: #2f2e2a;
+  text-align: left !important;
+}
+.go-gallery .gallery-header .gallery-description {
+  letter-spacing: .2px;
+  text-align: left !important;
+  font-size: 22px;
+  color: #c2b7b1;
+  font-family: "Open Sans", sans-serif;
+}
+.go-gallery .view-more {
+  text-align: center;
+  padding-top: 10px;
+  letter-spacing: .5px;
+}
+.go-gallery .view-more h4 {
+  font-size: 18px;
+  padding-top: 11px;
+  padding-left: 10px;
+  border-radius: 8px;
+  color: #f36f2e;
+  font-weight: 400;
+  height: 40px;
+  width: 400px;
+  transition: 0.3s;
+}
+.go-gallery .view-more h4:hover {
+  background: #fff0da;
+}
+.go-gallery .view-more:hover .link-icon {
+  transform: translateX(5px);
+}
 @media (max-width: 768px) {
-  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production {
+  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
+  .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
     padding: 15px 10px;
   }
 }
 @media (min-width: 992px) {
-  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production {
-    padding: 40px;
+  .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
+  .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
+    padding: 40px 50px;
   }
 }
 .platform-content, .ui-content {
@@ -2024,7 +2067,7 @@ section {
   color: #f36f2e;
 }
 .contact-us-button-2 label {
-  background-color: #fef8f5;
+  background-color: #fef8f500;
   border: 1px solid #f36f2e;
   z-index: 1;
   align-items: center !important;
