@@ -729,11 +729,11 @@ section {
   font-size: 36px;
   font-weight: 700;
   color: #2f2e2a;
-  text-align: left !important;
+  text-align: center !important;
 }
 .go-gallery .gallery-header .gallery-description {
   letter-spacing: .2px;
-  text-align: left !important;
+  text-align: center !important;
   font-size: 22px;
   color: #c2b7b1;
   font-family: "Open Sans", sans-serif;
@@ -753,6 +753,7 @@ section {
   height: 40px;
   width: 400px;
   transition: 0.3s;
+  text-align: center !important;
 }
 .go-gallery .view-more h4:hover {
   background: #fff0da;
