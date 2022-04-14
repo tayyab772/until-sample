@@ -740,15 +740,17 @@ section {
 }
 .go-gallery .view-more {
   text-align: center;
-  padding-top: 10px;
+  padding: 10px 365px;
   letter-spacing: .5px;
 }
 .go-gallery .view-more h4 {
   font-size: 18px;
-  padding-top: 11px;
+  padding-top: 10px;
   padding-left: 10px;
-  border-radius: 8px;
+  border-radius: 450px;
   color: #f36f2e;
+  background: #fff0da;
+  border: 1px solid #fff0da;
   font-weight: 400;
   height: 40px;
   width: 400px;
@@ -756,7 +758,8 @@ section {
   text-align: center !important;
 }
 .go-gallery .view-more h4:hover {
-  background: #fff0da;
+  border: 1px solid #f36f2e;
+  background: #fcfcfc;
 }
 .go-gallery .view-more:hover .link-icon {
   transform: translateX(5px);
@@ -766,11 +769,22 @@ section {
   .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
     padding: 15px 10px;
   }
+  .go-gallery .view-more {
+    padding: 10px 40px;
+  }
+  .go-gallery .view-more h4 {
+    width: 300px;
+  }
 }
 @media (min-width: 992px) {
   .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
   .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
     padding: 40px 50px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .go-gallery .view-more {
+    padding: 10px 158px;
   }
 }
 .platform-content, .ui-content {
