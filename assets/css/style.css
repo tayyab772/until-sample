@@ -776,16 +776,27 @@ section {
   .go-gallery .view-more h4 {
     width: 300px;
   }
+  .sponsors .partner-logo img {
+    height: 80px;
+  }
 }
 @media (min-width: 992px) {
   .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
   .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
     padding: 40px 50px;
   }
+  .sponsors .partner-logo img {
+    height: 120px;
+    padding: 0 150px;
+  }
 }
 @media (min-width: 768px) and (max-width: 992px) {
   .go-gallery .view-more {
     padding: 10px 158px;
+  }
+  .sponsors .partner-logo img {
+    height: 120px;
+    padding: 0 45px;
   }
 }
 .platform-content, .ui-content {
@@ -1027,6 +1038,14 @@ section {
 .portfolio .portfolio-wrap .portfolio-links a i {
   line-height: 0;
   font-size: 20px;
+}
+.portfolio .portfolio-wrap .gallery-view a i {
+  line-height: 0;
+  font-size: 32px;
+}
+.portfolio .portfolio-wrap .gallery-view a {
+  width: 42px;
+  height: 42px;
 }
 .portfolio .portfolio-wrap .portfolio-links a:hover {
   background: #f36f2e;
