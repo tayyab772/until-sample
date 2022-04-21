@@ -911,7 +911,7 @@ section {
   font-size: 22px;
   line-height: 28px;
   border-radius: 10px;
-  padding: 5px;
+  padding: 5px 10px;
   background-color: rgba(255, 255, 255, 0.65);
 }
 .graphic-box .title a {
