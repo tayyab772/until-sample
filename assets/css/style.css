@@ -769,6 +769,9 @@ section {
 .go-gallery .view-more:hover .link-icon {
   transform: translateX(5px);
 }
+.services .go-gallery {
+  padding-top: 40px;
+}
 @media (max-width: 768px) {
   .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
   .videography-content .pre-production, .videography-content .production, .videography-content .post-production, .videography-content .delivery {
