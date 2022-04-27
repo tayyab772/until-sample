@@ -784,7 +784,7 @@ section {
     width: 300px;
   }
   .sponsors .partner-logo img {
-    height: 80px;
+    width: 160px;
   }
 }
 @media (min-width: 992px) {
@@ -794,7 +794,7 @@ section {
   }
   .sponsors .partner-logo img {
     height: 120px;
-    padding: 0 150px;
+    padding: 0 90px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -802,7 +802,7 @@ section {
     padding: 10px 158px;
   }
   .sponsors .partner-logo img {
-    height: 120px;
+    width: 340px;
     padding: 0 45px;
   }
 }
