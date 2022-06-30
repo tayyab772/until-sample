@@ -931,7 +931,7 @@ section {
 }
 
 .branding-design {
-  background: #c2b7b1 url(../img/branding-design.jpg) no-repeat center center;
+  background: url(../img/branding-design.jpg) no-repeat center center;
   background-size: cover;
 }
 .fashion-design {
