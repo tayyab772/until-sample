@@ -98,9 +98,13 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .justify-content-center {
   justify-content: center !important;
 }
-@media (max-width: 768px) {
+@media screen and (max-width: 768px) {
   #header .logo img {
     max-height: 45px;
+  }
+
+  #main {
+    margin-top: -20px;
   }
 }
 /*--------------------------------------------------------------
@@ -574,7 +578,7 @@ section {
     font-size: 16px;
   }
   .about-img {
-    padding-top: 20px;
+    padding-top: 30px;
   }
 }
 
@@ -607,6 +611,12 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services-container {
+  position: relative;
+  grid: flex;
+  justify-content: center;
+  
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -640,6 +650,13 @@ section {
 #services .icon-box:hover .icon {
   background-color: #fff0da;
 }
+#services .icon {
+  position: relative;
+  overflow: hidden;
+  box-shadow: 0 10px 29px 0 rgba(68, 88, 144, 0.1);
+  justify-content: center;
+  align-items: center;
+}
 #services .icon i {
   font-size: 40px;
   margin-bottom: 15px;
@@ -649,8 +666,9 @@ section {
 .services .title {
   font-weight: 700;
   margin-bottom: 15px;
-  font-size: 18px;
+  font-size: 20px;
   line-height: 28px;
+  letter-spacing: 0.6px;
 }
 .services .title a {
   color: #4E4039;
