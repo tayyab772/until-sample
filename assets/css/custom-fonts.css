@@ -1,32 +1,3 @@
-
-/* Secular One Font */
-@font-face {
-    font-family: 'Secular One';
-    src: url(../vendor/custom-fonts/secular-one/SecularOne-Regular.ttf) format('truetype');
-}
-
-/* San Francisco Font */
-@font-face {
-    font-family: 'San Francisco';
-    src: url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Black.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Bold.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Heavy.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Light.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Medium.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Regular.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Semibold.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Thin.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSDisplay-Ultralight.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Bold.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-BoldG1.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-BoldItalic.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Heavy.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Light.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Medium.otf") format("opentype"),
-    url("../vendor/custom-fonts/San-Francisco/otf/SFNSText-Semibold.otf") format("opentype");
-}
-
-
 /* Graphik Font */
 @font-face {
     font-family: "Graphik-web";
@@ -37,15 +8,14 @@
   }
 
 /* ///////////////////////// */
-.Secular-font {
-    font-family: 'Secular One' ;
-    font-weight: normal;
-}
 .SF-font {
     font-family: -apple-system, system-ui, BlinkMacSystemFont;
-    /* font-family: 'San Francisco';
-    font-weight: lighter; */
 }
+
 .Graphik-font {
     font-family: 'Graphik-web', Helvetica, sans-serif;
+}
+
+.open-sans {
+    font-family: "Open Sans", sans-serif;
 }

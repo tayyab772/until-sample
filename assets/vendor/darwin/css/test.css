@@ -57,52 +57,10 @@
     width: 100%;
     z-index: 2
 }
-/* .tns-controls button[data-controls=prev] {
-    right: 100%
-}
-.tns-controls button[data-controls=next] {
-    left: 100%
-}
-.tns-controls button[data-controls=next]:before {
-    transform: rotate(45deg);
-    margin-left: -.4375rem
-} */
 .tns-nav {
     text-align: center;
     margin-top: .625rem
 }
-/* .tns-nav button {
-    border: 0;
-    width: 5rem;
-    padding: .5625rem .1875rem;
-    background-color: transparent;
-    transition: opacity .3s ease
-}
-.tns-nav button:before {
-    content: "";
-    display: block;
-    border-top: 3px solid;
-    width: 100%
-}
-.tns-nav button:not(.tns-nav-active) {
-    opacity: .3
-} */
-
-
-/* html {
-    line-height: 1.15;
-    -webkit-text-size-adjust: 100%
-}
-body {
-    margin: 0
-}
-main {
-    display: block
-}
-h1 {
-    font-size: 2em;
-    margin: .67em 0
-} */
 hr {
     box-sizing: content-box;
     height: 0;
@@ -112,18 +70,12 @@ pre {
     font-family: monospace, monospace;
     font-size: 1em
 }
-/* a {
-    background-color: transparent
-} */
 abbr[title] {
     border-bottom: none;
     text-decoration: underline;
     -webkit-text-decoration: underline dotted;
     text-decoration: underline dotted
 }
-/* b, strong {
-    font-weight: bolder
-} */
 code, kbd, samp {
     font-family: monospace, monospace;
     font-size: 1em
@@ -143,32 +95,6 @@ sub {
 sup {
     top: -.5em
 }
-/* img {
-    border-style: none
-} */
-/* button, input, optgroup, select, textarea {
-    font-family: inherit;
-    font-size: 100%;
-    line-height: 1.15;
-    margin: 0
-}
-button, input {
-    overflow: visible
-}
-button, select {
-    text-transform: none
-} */
-
-/* [type=button], [type=reset], [type=submit], button {
-    -webkit-appearance: button
-}
-[type=button]::-moz-focus-inner, [type=reset]::-moz-focus-inner, [type=submit]::-moz-focus-inner, button::-moz-focus-inner {
-    border-style: none;
-    padding: 0
-}
-[type=button]:-moz-focusring, [type=reset]:-moz-focusring, [type=submit]:-moz-focusring, button:-moz-focusring {
-    outline: 1px dotted ButtonText
-} */
 fieldset {
     padding: .35em .75em .625em
 }
@@ -183,9 +109,6 @@ legend {
 progress {
     vertical-align: baseline
 }
-/* textarea {
-    overflow: auto
-} */
 [type=checkbox], [type=radio] {
     box-sizing: border-box;
     padding: 0
@@ -312,6 +235,11 @@ summary {
 .d86b7 {
     max-width: 100%;
     flex: 0 0 100%
+}
+@media (min-width: 768px) {
+    .process-content {
+        padding: 30px;
+    }
 }
 @media(min-width:36rem) {
     .a4016 {
@@ -1516,7 +1444,7 @@ select {
 }
 @media(max-width:576px) {
     ._9bb1a {
-        padding-top: 2rem;
+        padding-top: 0;
         padding-bottom: 2rem
     }
 }
@@ -4961,8 +4889,9 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     font-size: 70px;
 }
 .c0bb7 {
-    font-size: 20px;
+    font-size: 18px;
     color: #4e4039;
+    line-height: 30px;
 }
 .c0bb7 a {
     color: #f36f2e;
@@ -4991,7 +4920,8 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
         font-size: 40px;
     }
     .c0bb7 {
-        font-size: 18px;
+        font-size: 17px;
+        line-height: 25px;
     }
     ._3061b {
         font-size: 18px;
