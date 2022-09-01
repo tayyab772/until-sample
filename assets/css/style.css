@@ -362,78 +362,60 @@ section {
 .cls-1, .cls-2, .cls-3, .cls-4, .cls-5 {
     stroke-width: 2px;
 }
-
 .cls-1, .cls-3 {
     stroke: #232b58;
 }
-
 .cls-1, .cls-3, .cls-6 {
     stroke-linecap: round;
     stroke-linejoin: round;
 }
-
 .cls-1, .cls-4, .cls-6 {
     fill: none;
 }
-
 .cls-7 {
     fill: #212529;
 }
-
 .cls-18 {
   fill: #808080;
 }
-
 .cls-8 {
     fill: #f36f2e;
 }
-
 .cls-2, .cls-9 {
     fill: #4E4039;
 }
-
 .cls-2, .cls-4, .cls-5 {
     stroke: #242d57;
     stroke-miterlimit: 10;
 }
-
 .cls-10, .cls-5 {
     fill: #FCCBB5;
 }
-
 .cls-3, .cls-11 {
     fill: #fff;
 }
-
 .cls-12 {
     fill: #212529;
 }
-
 .cls-13 {
     fill: rgb(0 0 0 / 10%);
 }
-
 .cls-14 {
     fill: #242d57;
 }
-
 .cls-11 {
-    font-family: Poppins-SemiBold, Poppins;
-    font-size: 10.5px;
+  font-family: "Graphik-web", sans-serif;
+  font-size: 10.8px;
 }
-
 .cls-15 {
     clip-path: url(#clippath);
 }
-
 .cls-16 {
     fill: #fab631;
 }
-
 .cls-17 {
     fill: #232c57;
 }
-
 .cls-6 {
     stroke: #fff;
     stroke-width: 3px;
