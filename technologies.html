@@ -26,10 +26,10 @@
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
   <link href="assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/custom-fonts.css" rel="stylesheet">
-	<link href="assets/vendor/darwin/css/test.css" rel="stylesheet">
+  <link href="assets/css/navbar.css" rel="stylesheet">
 
 </head>
 
@@ -37,42 +37,25 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
+    <nav class="navbar-box">
       <div class="logo">
-        <a href="/"><img src="assets/img/logo/text-logo.png" alt="" class="img-fluid"></a>
+          <a href="/">
+              <img src="assets/img/logo/text-logo.png" alt="Minimax Logo">
+          </a>
       </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto" href="/">Home</a></li>
-          <li><a class="nav-link scrollto" href="/#about">About Us</a></li>
-          <li class="dropdown"><a class="nav-link scrollto"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/services/web-development.html">Web Development</a></li>
-              <li><a href="/services/mobile-app-development.html">Mobile App Development</a></li>
-              <li><a href="/services/software-development.html">Custom Software Development</a></li>
-              <li><a href="/services/artificial-intelligent.html">Artificial Intelligent & ML</a></li>
-              <li><a href="/services/ui-ux-design.html">UI/UX Design</a></li>
-              <li><a href="/services/graphic-design.html">Graphics Design & Animations</a></li>
-              <li><a href="/services/photography-videography.html">Photography & Videography</a></li>
-              <li><a href="/services/architecture-design.html">Civil Engineering Design</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a><span>Our Work</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="/case-study/">Case Studies</a></li>
-              <li><a href="/#clients">Our Clients</a></li>
-              <li><a href="/#testimonials">Testimonials</a></li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="/request-quote.html">Request Quote</a></li> <!--<i style="font-size: 20px;" class="bi bi-arrow-right"></i> -->
-        </ul>
-        <!-- Mobile navbar -->
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+          <li><a class="nav-page" href="/">Home</a></li>
+          <li><a class="nav-page" href="/#about">About Us</a></li>
+          <li><a class="nav-page" href="/#services">Services</a></li>
+          <li><a class="nav-page" href="">Our Works</a></li>
+          <li><a class="join-button" href="/request-quote.html">Contact Us</a></li>
+      </ul>
+  </nav>
   </header><!-- End Header -->
 
   <main id="main">

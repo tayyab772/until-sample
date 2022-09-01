@@ -26,9 +26,10 @@
   <link href="../assets/vendor/ionicons/css/ionicons.min.css" rel="stylesheet">
   <link href="../assets/vendor/owlcarousel/../assets/owl.carousel.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  <!-- Main CSS File -->
   <link href="../assets/css/style.css" rel="stylesheet">
-	<link href="../assets/vendor/darwin/css/test.css" rel="stylesheet">
+  <link href="../assets/css/custom-fonts.css" rel="stylesheet">
+  <link href="../assets/css/navbar.css" rel="stylesheet">
 
   
 </head>
@@ -37,72 +38,158 @@
 
   <!-- ======= Header ======= -->
   <header id="header" class="fixed-top d-flex align-items-center">
-    <div class="container d-flex align-items-center justify-content-between">
-
+    <nav class="navbar-box">
       <div class="logo">
-        <!-- <h1 class="text-light SF-font"><a href="index.html"><span>Minimax Studio</span></a></h1> -->
-        <a href="../"><img src="../assets/img/logo/text-logo.png" alt="" class="img-fluid"></a>
+          <a href="/">
+              <img src="../assets/img/logo/text-logo.png" alt="Minimax Logo">
+          </a>
       </div>
-
-      <nav id="navbar" class="navbar">
-        <ul>
-          <li><a class="nav-link scrollto active" href="#">Home</a></li>
-          <li><a class="nav-link scrollto" href="#">About Us</a></li>
-          <li class="dropdown"><a class="nav-link scrollto" href="#"><span>Services</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Service 1</a></li>
-              <li class="dropdown"><a href="#"><span>Service 2</span> <i class="bi bi-chevron-right"></i></a>
-                <ul>
-                  <li><a href="#">Deep Service 1</a></li>
-                  <li><a href="#">Deep Service 2</a></li>
-                </ul>
-              </li>
-              <li><a href="#">Service 3</a></li>
-            </ul>
-          </li>
-          <li class="dropdown"><a href="#"><span>Our Work</span> <i class="bi bi-chevron-down"></i></a>
-            <ul>
-              <li><a href="#">Case Studies</a></li>
-              <li><a href="#">Our Clients</a></li>
-              <li><a href="#">Testimonials</a></li>
-            </ul>
-          </li>
-          <li><a class="getstarted scrollto" href="../request-quote.html">Request Quote</a></li> <!--<i style="font-size: 20px;" class="bi bi-arrow-right"></i> -->
-        </ul>
-        <!-- Mobile navbar -->
-        <i class="bi bi-list mobile-nav-toggle"></i>
-      </nav><!-- .navbar -->
-
-    </div>
+      <div class="hamburger">
+          <div class="line1"></div>
+          <div class="line2"></div>
+          <div class="line3"></div>
+      </div>
+      <ul class="nav-links">
+          <li><a class="nav-page" href="/">Home</a></li>
+          <li><a class="nav-page" href="/#about">About Us</a></li>
+          <li><a class="nav-page" href="/#services">Services</a></li>
+          <li><a class="nav-page" href="">Our Works</a></li>
+          <li><a class="join-button" href="/request-quote.html">Contact Us</a></li>
+      </ul>
+  </nav>
   </header><!-- End Header -->
 
   <main id="main">
 
-    <!-- ======= Breadcrumbs Section ======= -->
-    <section class="breadcrumbs">
-      <div class="container">
-
-        <div class="d-flex justify-content-between align-items-center">
-          <h2><strong>Web Development<span class="org-dot">.</span></strong></h2>
-          <ol>
-            <li><a href="../index.html">Home</a></li>
-            <li>Web Development</li>
-          </ol>
-        </div>
-
-      </div>
-    </section><!-- End Breadcrumbs Section -->
-
-    <section id="case-study" class="case-study section-bg">
+    <section id="services" class="services section-bg">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <!-- <h2>Services</h2> -->
-          <p>Case Study<span class="org-dot">.</span></p>
+          <h2>Services</h2>
+          <p>Check out the great services we offer<span class="org-dot">.</span></p>
+        </div>
+
+        <!-- Services : Row-01 -->
+        <div class="services-container row">
+
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-currency-bitcoin"></i></div>
+              <h4 class="title"><a href="/services/software-development.html">Web 3.0 & Blockchain Development</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui</p>
+              <div class="view-more">
+                <a href="/services/software-development.html"><h4>View more
+                  <svg class="link-icon" fill="none" height="11" viewBox="0 0 14 12" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#f36f2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path d="m1.375 6h11.25"></path>
+                      <path d="m7.375 11.25 5.25-5.25-5.25-5.25"></path>
+                    </g>
+                  </svg></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="100">
+            <div class="icon-box">
+              <div class="icon"><i class="ion-earth"></i></div>
+              <h4 class="title"><a href="/services/web-development.html">Web Applications Development</a></h4>
+              <p class="description">HTML-CSS, PHP, MERN Stack, WordPress, Magento, Laravel, Spring Boot</p>
+              <div class="view-more">
+                <a href="/services/web-development.html"><h4>View more
+                  <svg class="link-icon" fill="none" height="11" viewBox="0 0 14 12" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#f36f2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path d="m1.375 6h11.25"></path>
+                      <path d="m7.375 11.25 5.25-5.25-5.25-5.25"></path>
+                    </g>
+                  </svg></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class="bi bi-phone"></i></div>
+              <h4 class="title"><a href="/services/mobile-app-development.html">Mobile Applications Development</a></h4>
+              <p class="description">Android App, iOS App, Hybrid App (Flutter, React Native), Kotlin, Swift, Ionic</p>
+              <div class="view-more">
+                <a href="/services/mobile-app-development.html"><h4>View more
+                  <svg class="link-icon" fill="none" height="11" viewBox="0 0 14 12" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#f36f2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path d="m1.375 6h11.25"></path>
+                      <path d="m7.375 11.25 5.25-5.25-5.25-5.25"></path>
+                    </g>
+                  </svg></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="200">
+            <div class="icon-box">
+              <div class="icon"><i class='bx bx-devices'></i></div>
+              <h4 class="title"><a href="/services/ui-ux-design.html">UI / UX Designs</a></h4>
+              <p class="description">Provide your application with an advanced UI/UX design and prototype approach.</p>
+              <div class="view-more">
+                <a href="/services/ui-ux-design.html"><h4>View more
+                  <svg class="link-icon" fill="none" height="11" viewBox="0 0 14 12" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#f36f2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path d="m1.375 6h11.25"></path>
+                      <path d="m7.375 11.25 5.25-5.25-5.25-5.25"></path>
+                    </g>
+                  </svg></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-md-6 col-lg-4 d-flex align-items-stretch" data-aos="zoom-in" data-aos-delay="300">
+            <div class="icon-box">
+              <div class="icon"><i class='bi bi-vector-pen'></i></div>
+              <h4 class="title"><a href="/services/graphic-design.html">Graphic Designs</a></h4>
+              <p class="description">Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia </p>
+              <div class="view-more">
+                <a href="/services/graphic-design.html"><h4>View more
+                  <svg class="link-icon" fill="none" height="11" viewBox="0 0 14 12" width="14" xmlns="http://www.w3.org/2000/svg">
+                    <g stroke="#f36f2e" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5">
+                      <path d="m1.375 6h11.25"></path>
+                      <path d="m7.375 11.25 5.25-5.25-5.25-5.25"></path>
+                    </g>
+                  </svg></h4>
+                </a>
+              </div>
+            </div>
+          </div>
+
         </div>
 
       </div>
     </section>
+
+    <!-- ======= Request Quote Section ======= -->
+    <div id="request-quote" class="request-quote">
+      <div class="container" data-aos="fade-up">
+        <div class="row" data-aos="fade-up">
+          <div class="col-lg-1"></div>
+          <div class="col-lg-10 mt-5 mt-lg-0 d-flex align-items-center aos-init aos-animate">
+            <div class="contact-us">
+              <p>Let’s Create Big Stories Together<span style="font-family: 'Open Sans', sans-serif;" class="org-dot">.</span></p>
+              <h3>Mobile is in our nerves. We don’t just build apps, we create brand.
+                <br>Choosing us will be your best decision.
+              </h3>
+              <div class="contact-us-button">
+                <label class="mb-0 d-inline-flex align-items-center justify-content-center">
+                  <a href="/request-quote.html"><span>Request a Quote 
+                    <i class="bi bi-arrow-right"></i></span>
+                  </a>
+                </label>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- End Request Section -->
 
   </main><!-- End #main -->
 
