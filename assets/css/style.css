@@ -652,6 +652,10 @@ section {
   .sponsors .partner-logo img {
     width: 160px;
   }
+  .overview-content .sub-title, .platform-content .sub-title, .what-is-web3 h3, .ui-content .sub-title,
+  .overview-content .content, .platform-content .content, .what-is-web3 .content, .ui-content .content {
+    padding: 0 20px;
+  }
 }
 @media (min-width: 992px) {
   .photography-content .pre-production, .photography-content .photoshoot, .photography-content .post-production, .photography-content .delivery,
@@ -661,6 +665,9 @@ section {
   .sponsors .partner-logo img {
     height: 120px;
     padding: 0 90px;
+  }
+  .what-is-web3 .body-box {
+    padding-right: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 992px) {
@@ -672,7 +679,7 @@ section {
     padding: 0 45px;
   }
 }
-.platform-content, .ui-content {
+.platform-content, .ui-content, .web3 {
   text-align: left !important;
   padding: 0 15px;
 }
@@ -685,6 +692,29 @@ section {
   line-height: 30px;
   letter-spacing: .2px;
   color: #686868;
+}
+.web3 .sub-title, .what-is-web3 h3, .about-web3 .overview-content h3 {
+  letter-spacing: 1.5px;
+  font-weight: 700;
+  font-size: 27px;
+  color: #4e4039;
+}
+.web3 ul {
+  line-height: 30px;
+  letter-spacing: .5px;
+  color: #686868;
+  font-size: 15px;
+  padding: 0 30px;
+}
+
+.what-is-web3 .content {
+  line-height: 30px;
+  letter-spacing: .5px;
+  color: #686868;
+  padding-top: 15px;
+}
+.about-web3 .overview-content .content, .about-web3 .overview-content h3{
+  text-align: center;
 }
 .about-web .overview-content {
   padding-bottom: 60px;
@@ -2241,9 +2271,7 @@ section {
   font-size: 14px;
   color: #999;
   margin: 0 0 12px 0;
-  /* font-weight: bold; */
-  /* font-style: italic; */
-  font-family: Montserrat, sans-serif;
+  font-family: "Open Sans", sans-serif;
 }
 .case-study .tools .tech-chip {
   font-size: 13px;
@@ -2252,6 +2280,8 @@ section {
   background-color: rgba(0,0,0,.05);
   border-radius: 15px;
   font-family: Montserrat, sans-serif;
+  cursor: pointer;
+  letter-spacing: .5px;
 }
 .mr-1, .mx-1 {
   margin-right: .25rem !important;
@@ -2261,8 +2291,8 @@ section {
 }
 .case-study .view-more {
   text-align: center;
-  padding-top: 10px;
-  letter-spacing: .5px;
+  padding-top: 20px;
+  letter-spacing: .75px;
 }
 .case-study .view-more h4 {
   font-size: 14px;
@@ -2304,3 +2334,4 @@ section {
   font-size: 16px;
   color: #686868;
 }
+/*  */
