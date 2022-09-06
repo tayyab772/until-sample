@@ -30,6 +30,7 @@
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/custom-fonts.css" rel="stylesheet">
   <link href="assets/css/navbar.css" rel="stylesheet">
+  <link href="/main.css" rel="stylesheet">
 
 </head>
 
@@ -75,86 +76,122 @@
       </div>
     </section><!-- End Breadcrumbs Section -->
 
-    <!-- ======= Calendly Section ======= -->
-    <section id="calendly" class="calendly">
-      <div class="container" data-aos="fade-up">
-        <!-- Calendly inline widget begin -->
-        <div class="calendly-inline-widget" data-url="https://calendly.com/iam_vinojan/minimax-studio?text_color=2f2e2a&primary_color=f36f2e" style="min-width:320px;height:650px;"></div>
-        <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
-        <!-- Calendly inline widget end -->
-      </div>
-    </section><!-- End Calendly Section -->
-
-    <!-- ======= Request Quote Section ======= -->
-    <section id="contact" class="contact section-bg">
-      <div class="container" data-aos="fade-up">
-
+    <!-- ======= Form Section ======= -->
+    <section class="jotform-section">
+      <div class="container jotform-box" data-aos="fade-up">
+        
         <div class="section-title section-title-quote">
           <p>Tell us about your project<span class="org-dot">.</span></p>
         </div>
-
-        <div class="row">
-
-          <div class="col-lg-12 mt-5 mt-lg-0 d-flex align-items-center" data-aos="fade-up" data-aos-delay="200">
-            <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-              <div class="row mt-3">
-                <div class="form-group col-md-6">
-                  <label for="name">Name <span>(Required)</span></label>
-                  <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" required>
-                </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Company <span>(Optional)</span></label>
-                  <input type="company" class="form-control" name="company" id="company" placeholder="Your Company Name">
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="form-group col-md-6">
-                  <label for="name">Email <span>(Required)</span></label>
-                  <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" required>
-                </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Phone <span>(Optional)</span></label>
-                  <input type="text" name="number" class="form-control" id="number" placeholder="Your Phone Number">
-                </div>
-              </div>
-              <div class="row mt-3">
-                <div class="form-group col-md-6">
-                  <label for="name">Choose a Budget (USD)</label>
-                  <select type="text" class="form-control" name="budget" id="budget" placeholder="Choose Your Budget">
-                    <option value="budget-1" selected>Less than $1K</option>
-                    <option value="budget-2">$1K - $5K</option>
-                    <option value="budget-3">Over $5K</option>
-                  </select>
-                </div>
-                <div class="form-group col-md-6 mt-3 mt-md-0">
-                  <label for="name">Upload File</label>
-                  <input type="file" name="file" class="form-control" id="budget-file" placeholder="Upload your file">
-                </div>
-              </div>
-              <div class="form-group mt-3">
-                <label for="name">Subject <span>(Optional)</span></label>
-                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject">
-              </div>
-              <div class="form-group mt-3">
-                <label for="name">Project Details</label>
-                <textarea class="form-control" name="message" rows="10" placeholder="Brief your Project Details" required></textarea>
-              </div>
-              <div class="my-3">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-              </div>
-              <div class="text-center"><button type="submit">REQUEST QUOTE</button></div>
-            </form>
-          </div>
-
+  
+        <div class="jotform">
+          <iframe
+            id="JotFormIFrame-222475351198460"
+            title="Request Quote"
+            onload="window.parent.scrollTo(0,0)"
+            allowtransparency="true"
+            allowfullscreen="true"
+            allow="geolocation; microphone; camera"
+            src="https://form.jotform.com/222475351198460"
+            frameborder="0"
+            style="
+            min-width: 100%;
+            height:539px;
+            border:none;"
+            scrolling="no"
+          >
+          </iframe>
+          <script type="text/javascript">
+            var ifr = document.getElementById("JotFormIFrame-222475351198460");
+            if (ifr) {
+              var src = ifr.src;
+              var iframeParams = [];
+              if (window.location.href && window.location.href.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(window.location.href.substr(window.location.href.indexOf("?") + 1).split('&'));
+              }
+              if (src && src.indexOf("?") > -1) {
+                iframeParams = iframeParams.concat(src.substr(src.indexOf("?") + 1).split("&"));
+                src = src.substr(0, src.indexOf("?"))
+              }
+              iframeParams.push("isIframeEmbed=1");
+              ifr.src = src + "?" + iframeParams.join('&');
+            }
+            window.handleIFrameMessage = function(e) {
+              if (typeof e.data === 'object') { return; }
+              var args = e.data.split(":");
+              if (args.length > 2) { iframe = document.getElementById("JotFormIFrame-" + args[(args.length - 1)]); } else { iframe = document.getElementById("JotFormIFrame"); }
+              if (!iframe) { return; }
+              switch (args[0]) {
+                case "scrollIntoView":
+                  iframe.scrollIntoView();
+                  break;
+                case "setHeight":
+                  iframe.style.height = args[1] + "px";
+                  break;
+                case "collapseErrorPage":
+                  if (iframe.clientHeight > window.innerHeight) {
+                    iframe.style.height = window.innerHeight + "px";
+                  }
+                  break;
+                case "reloadPage":
+                  window.location.reload();
+                  break;
+                case "loadScript":
+                  if( !window.isPermitted(e.origin, ['jotform.com', 'jotform.pro']) ) { break; }
+                  var src = args[1];
+                  if (args.length > 3) {
+                      src = args[1] + ':' + args[2];
+                  }
+                  var script = document.createElement('script');
+                  script.src = src;
+                  script.type = 'text/javascript';
+                  document.body.appendChild(script);
+                  break;
+                case "exitFullscreen":
+                  if      (window.document.exitFullscreen)        window.document.exitFullscreen();
+                  else if (window.document.mozCancelFullScreen)   window.document.mozCancelFullScreen();
+                  else if (window.document.mozCancelFullscreen)   window.document.mozCancelFullScreen();
+                  else if (window.document.webkitExitFullscreen)  window.document.webkitExitFullscreen();
+                  else if (window.document.msExitFullscreen)      window.document.msExitFullscreen();
+                  break;
+              }
+              var isJotForm = (e.origin.indexOf("jotform") > -1) ? true : false;
+              if(isJotForm && "contentWindow" in iframe && "postMessage" in iframe.contentWindow) {
+                var urls = {"docurl":encodeURIComponent(document.URL),"referrer":encodeURIComponent(document.referrer)};
+                iframe.contentWindow.postMessage(JSON.stringify({"type":"urls","value":urls}), "*");
+              }
+            };
+            window.isPermitted = function(originUrl, whitelisted_domains) {
+              var url = document.createElement('a');
+              url.href = originUrl;
+              var hostname = url.hostname;
+              var result = false;
+              if( typeof hostname !== 'undefined' ) {
+                whitelisted_domains.forEach(function(element) {
+                    if( hostname.slice((-1 * element.length - 1)) === '.'.concat(element) ||  hostname === element ) {
+                        result = true;
+                    }
+                });
+                return result;
+              }
+            };
+            if (window.addEventListener) {
+              window.addEventListener("message", handleIFrameMessage, false);
+            } else if (window.attachEvent) {
+              window.attachEvent("onmessage", handleIFrameMessage);
+            }
+          </script>
         </div>
-
       </div>
-    </section><!-- End Request Quote Section -->
+    </section>
+    <!-- End JotForm Section -->
+
+    <div class="form-hide-section">
+      <img src="/assets/img/white-bg.jpg" class="img-responsive" alt="" />
+    </div>
 
     <!-- ======= Address Section ======= -->
-    <section id="" class="contact">
+    <section class="contact form-group-section">
       <div class="container" data-aos="fade-up">
 
         <div class="row address-row">
@@ -193,6 +230,43 @@
 
       </div>
     </section><!-- End Address Section -->
+
+    <section class="social-media-section">
+      <div class="container">
+        <div class="row social-media-box icon-effect">
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="100">
+            <div class="buttons">
+              <a href="https://wa.me/message/4NIHZEBYRIQME1" class="wa" title="Contact us on WhatsApp" target="_blank"><i class="bi bi-whatsapp"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="150">
+            <div class="buttons">
+              <a href="https://www.facebook.com/minimax.studio7/" class="fb" title="Join us on Facebook" target="_blank"><i class="bi bi-facebook"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="200">
+            <div class="buttons">
+              <a href="https://twitter.com/MinimaxStudio7" class="tw" title="Join us on Twitter" target="_blank"><i class="bi bi-twitter"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="250">
+            <div class="buttons">
+              <a href="https://www.instagram.com/minimax.studio7/" class="insta" title="Join us on Instagram" target="_blank"><i class="bi bi-instagram"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="350">
+            <div class="buttons">
+              <a href="https://www.linkedin.com/company/minimax-studio7" class="in" title="Join us on Linked In" target="_blank"><i class="bi bi-linkedin"></i></a>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-3 col-sm-4 col-xs-4" data-aos="zoom-in" data-aos-delay="400">
+            <div class="buttons">
+              <a href="#" class="yt" title="Subscribe us on YouTube"><i class="bi bi-youtube"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
 
   </main><!-- End #main -->
 
