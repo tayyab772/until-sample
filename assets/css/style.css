@@ -1918,11 +1918,98 @@ section {
 .address-row {
   margin-left: 110px;
 }
+.form-hide-section {
+  margin-top: -110px;
+  position: absolute;
+}
+.form-group-section {
+  margin-top: -50px;
+  padding: 50px 0 10px;
+}
 @media (max-width: 768px) {
   .address-row {
     margin-left: 0;
   }
 }
+/* Social Media - Request Quote Page */
+.social-media-section {
+  padding: 0 0 30px;
+}
+
+.social-media-box {
+  padding: 30px 0px 50px 0px;
+  background-color: #fff;
+  display: flex;
+}
+
+.social-media-box .buttons {
+  display: flex;
+  justify-content: center;
+  padding: 20px 0;
+}
+
+.social-media-box a {
+  text-decoration: none !important;
+  color: #fff;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  font-size: 25px;
+  overflow: hidden;
+  position: relative;
+}
+
+.social-media-box a i {
+  position: relative;
+  z-index: 3;
+}
+
+.social-media-box a.wa {
+  background-color: #25D366;
+}
+
+.social-media-box a.fb {
+  background-color: #3b5998;
+}
+
+.social-media-box a.tw {
+  background-color: #00aced;
+}
+
+.social-media-box a.insta {
+  background-color: #ea4c89;
+}
+
+.social-media-box a.in {
+  background-color: #007bb6;
+}
+
+.social-media-box a.yt {
+  background-color: #FF0000;
+}
+
+.icon-effect a {
+  transition: transform 0.2s linear 0s, border-radius 0.2s linear 0.2s;
+}
+
+.icon-effect a i {
+  transition: transform 0.2s linear 0s;
+}
+
+.icon-effect a:hover {
+  transform: rotate(-90deg);
+  border-top-left-radius: 50%;
+  border-top-right-radius: 50%;
+  border-bottom-left-radius: 50%;
+}
+
+.icon-effect a:hover i {
+  transform: rotate(90deg);
+}
+
 
 .hide-display {
   display: none;
