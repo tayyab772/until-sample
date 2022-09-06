@@ -43,8 +43,10 @@ h1, h2, h3, h4, h5, h6, .font-primary {
   position: fixed;
   visibility: hidden;
   opacity: 0;
-  right: 15px;
-  bottom: 15px;
+  /* right: 15px;
+  bottom: 15px; */
+  right: 37px;
+  bottom: 140px;
   z-index: 99999;
   background: #f36f2e;
   width: 40px;
@@ -67,6 +69,12 @@ h1, h2, h3, h4, h5, h6, .font-primary {
 .back-to-top.active {
   visibility: visible;
   opacity: 1;
+}
+@media (max-width: 768px) {
+  .back-to-top {
+    right: 22px;
+    bottom: 120px;
+  }
 }
 
 /*--------------------------------------------------------------
