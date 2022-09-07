@@ -1927,8 +1927,9 @@ section {
   margin-left: 110px;
 }
 .form-hide-section {
-  /* margin-top: -110px; */
+  margin-top: -110px;
   position: absolute;
+  opacity: 1;
 }
 .form-group-section {
   margin-top: -50px;
@@ -1937,6 +1938,10 @@ section {
 @media (max-width: 768px) {
   .address-row {
     margin-left: 0;
+  }
+  .form-hide-section {
+    opacity: 0;
+    display: none;
   }
 }
 /* Social Media - Request Quote Page */
