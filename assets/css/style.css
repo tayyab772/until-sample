@@ -2339,6 +2339,9 @@ section {
 .case-study .case-div {
   padding-top: 40px;
 }
+.case-study-section {
+  justify-content: center;
+}
 .case-box {
   padding: 30px;
   position: relative;
