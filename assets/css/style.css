@@ -267,6 +267,9 @@ section {
 .services-button label:hover {
   background-color: #e0672a;
 }
+.about .about-imgbox {
+  max-width: 60%;
+}
 @media (max-width: 991px) {
   .about .about-img img {
     max-width: 70%;
