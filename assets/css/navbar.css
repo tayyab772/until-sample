@@ -24,12 +24,12 @@ nav{
 
 /*Styling logo*/
 .logo{
-    padding: 7px 65px;
+    padding: 14px 70px;
     text-align: center;
 }
 .logo img {
-	height: 3.5rem;
-    width: 13.5rem;
+	height: 3rem;
+    width: 12.8rem;
 }
 
 /*Styling Links*/
@@ -112,12 +112,12 @@ nav{
         z-index: 3;
     }
 	.logo{
-		padding: 11px 22px;
+		padding: 15px 26px;
 		text-align: center;
 	}
     .logo img {
         height: 3rem;
-        width: 11.5rem;
+        width: 13rem;
     }
     .hamburger{
         display:block;
