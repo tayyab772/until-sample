@@ -268,7 +268,8 @@ section {
   background-color: #e0672a;
 }
 .about .about-imgbox {
-  max-width: 60%;
+  max-width: 100%;
+  padding: 0 30px;
 }
 @media (max-width: 991px) {
   .about .about-img img {
@@ -1737,12 +1738,13 @@ section {
   flex-direction: column !important;
 }
 #footer .footer-top .footer-logo img {
-  width: 140px;
-  height: 140px;
+  /* width: 140px; */
+  height: 60px;
 }
 #footer .footer-top .footer-logo p {
   font-size: 14px;
   color: #5c5c5c;
+  padding-top: 20px;
 }
 #footer .footer-top .footer-contact {
   margin-bottom: 30px;
@@ -1842,6 +1844,7 @@ section {
 #footer .copyright {
   text-align: center;
   float: left;
+  font-family: "Open Sans", sans-serif;
 }
 #footer .credits {
   float: right;
