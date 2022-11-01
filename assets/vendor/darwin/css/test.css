@@ -532,119 +532,9 @@ summary {
 :after, :before {
     box-sizing: inherit
 }
-
-/* body, html:not([data-page-id=careers]) {
-    overflow-x: hidden
-}
-body {
-    background: #f9f9f9
-} */
 .a2c9f>:first-child {
     margin-top: 0
 }
-/* a {
-    color: #f84d54
-}
-a, a:hover {
-    text-decoration: none
-}
-a:focus, button:focus, input:focus, textarea:focus {
-    outline: 2px dotted
-}
-[data-mouse-focus] :focus {
-    outline: none !important
-}
-html {
-    font-size: 100%
-}
-body {
-    font-family: Montserrat, sans-serif;
-    font-smoothing: antialiased;
-    text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    line-height: 1.6;
-    letter-spacing: 0
-}
-h1 {
-    font-size: 7.0125rem
-}
-h2 {
-    font-size: 4.75rem
-}
-h3 {
-    font-size: 3.2175rem
-}
-h4 {
-    font-size: 2.179375rem
-}
-h5 {
-    font-size: 1.47625rem
-}
-h6 {
-    font-size: 1rem
-} */
-/* h1, h2, h3, h4, h5, h6 {
-    font-family: inherit;
-    font-weight: 700;
-    margin-top: 3.5rem;
-    margin-bottom: 2.5rem;
-    font-family: Montserrat, sans-serif;
-    color: #202021
-} */
-
-/* h1 {
-    line-height: 1
-}
-h2 {
-    line-height: 1.1
-}
-h1, h2 {
-    letter-spacing: -.04em
-}
-h3, h4, h5, h6 {
-    line-height: 1.2
-}
-blockquote, ol, p, ul {
-    margin-top: 0;
-    margin-bottom: 1rem
-}
-@media(max-width:1140px) {
-    h1 {
-        font-size: calc(1.37578rem + 7.91813vw)
-    }
-    h1, h2 {
-        margin-top: calc(1.15625rem + 3.29236vw);
-        margin-bottom: calc(1.09375rem + 1.97542vw)
-    }
-    h2 {
-        font-size: calc(1.23438rem + 4.93854vw)
-    }
-    h3 {
-        font-size: calc(1.13859rem + 2.92032vw)
-    }
-    h3, h4 {
-        margin-top: calc(1.15625rem + 3.29236vw);
-        margin-bottom: calc(1.09375rem + 1.97542vw)
-    }
-    h4 {
-        font-size: calc(1.07371rem + 1.55317vw)
-    }
-    h5 {
-        font-size: calc(1.02977rem + .62719vw)
-    }
-    h5, h6 {
-        margin-top: calc(1.15625rem + 3.29236vw);
-        margin-bottom: calc(1.09375rem + 1.97542vw)
-    }
-}
-img {
-    height: auto
-} */
-
-/* .b96e2, img {
-    max-width: 100%
-} */
 .b96e2 {
     max-width: 100%
 }
@@ -1436,7 +1326,7 @@ select {
     margin-bottom: 1.25rem
 }
 .a68be span {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-size: 24px;
 }
 @media (max-width: 768px) {
@@ -1449,7 +1339,7 @@ select {
 }
 .c14c3 span {
     text-transform: uppercase;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-size: 20px;
 }
 @media (max-width: 768px) {
@@ -4001,7 +3891,7 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     font-weight: 700;
     margin-top: 2.25rem;
     margin-bottom: 1.625rem;
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     color: #202021
 }
 .d70e3 {
@@ -4838,7 +4728,7 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
 
 /* Hero section - bubble animation section */
 .section-2 {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-size: 70px;
 }
 .c0bb7 {
@@ -4847,10 +4737,10 @@ html:not([data-touch]) ._8f0ed:focus .c7972, html:not([data-touch]) ._8f0ed:hove
     line-height: 30px;
 }
 .c0bb7 a {
-    color: #f36f2e;
+    color: #f84d54;
 }
 .c8247 {
-    font-family: Montserrat, sans-serif;
+    font-family: "Montserrat", sans-serif, Arial, sans-serif;
     font-size: 20px;
     color: #000000;
 }
